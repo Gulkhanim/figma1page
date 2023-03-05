@@ -85,6 +85,7 @@ color: #FFFFFF;
 height: 64px;
 width: 220px;
 border-radius: 8px;
+border: none;
 padding: 20px 24px 20px 24px;
 background: #71A894;
 transition: all;
@@ -109,7 +110,9 @@ button:hover{
    align-items: center; */
    text-align: center;
    margin-left: 220px;
+
 }
+
 
 h2{
 font-family: Roboto;
@@ -133,6 +136,7 @@ color: #303031;
     justify-content: space-around;
     padding-top: 25px;
     padding-bottom: 40px;
+    /* margin-top: 150px; */
 }
 .card{
 height: 300px;
@@ -235,7 +239,7 @@ color: #66645E;
 
 .box4{
 display: flex;
-margin-top: 65px;
+margin-top: 150px;
 margin-left: 35px;
 }
 
@@ -315,6 +319,24 @@ margin-left: 10px;
 
 }
 
+.Alex{
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 700;
+line-height: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para4{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: center;
+color: #66645E;
+
+}
+
 @media screen and (max-width: 576px){
 .none{
     display: none;
@@ -332,14 +354,18 @@ span{
     .box{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center !important;
+        justify-content: center !important; 
+       
     }
     .section1{
         padding-left: 33px;
-        padding-right: 33px;
+       width: 360px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-top: 130px;
     }
     .section1 h1{
         text-align: center;
@@ -362,18 +388,23 @@ text-align: center;
     .section img{
         padding-left: 18px;
         padding-right: 18px;
-height: 234px;
-width: 325px;
+width: 330px;
 
 
     }
 
-    .center{
+    .centerr{
         display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
-    
+        width: 360px;
+
     }
+    .centerrh1p{
+        width: 360px;
+    }
+
 
 h2{
 font-size: 30px;
@@ -391,11 +422,12 @@ text-align: center;
 
 }
 
-.bigbox{
+.bigboxx{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   margin:35px ;
+padding: 25px;
+ 
     
 }
 
